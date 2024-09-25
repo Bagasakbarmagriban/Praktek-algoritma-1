@@ -1,0 +1,5 @@
+panjang = float(input("Masukkan panjang ruangan: "))
+lebar = float(input("Masukkan lebar ruangan: "))
+satuan = input("Masukkan satuan (meter/inci): ")
+luas = panjang * lebar
+print(f"Luas ruangan dengan panjang {panjang} {satuan} dan lebar {lebar} {satuan} adalah {luas} {satuan}^2")
